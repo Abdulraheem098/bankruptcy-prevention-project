@@ -1,6 +1,6 @@
 # 🏦 Bankruptcy Prevention Project
 
-![Preview](preview.png)
+![Preview](Preview.png)
 
 ## 📌 Project Overview
 This project focuses on predicting the likelihood of company bankruptcy using **machine learning models**.  
@@ -58,5 +58,6 @@ To build a predictive system that:
    ```bash
    git clone https://github.com/Abdulraheem098/bankruptcy-prevention-project.git
    cd bankruptcy-prevention-project
+
 
 
