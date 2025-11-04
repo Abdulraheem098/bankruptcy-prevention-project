@@ -1,0 +1,21 @@
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+*.ipynb_checkpoints/
+
+# Ignore Office files
+*.docx
+*.pptx
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore any hidden files
+.*
