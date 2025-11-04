@@ -4,7 +4,7 @@ from sklearn.neighbors import KNeighborsClassifier
 import streamlit as st
 
 # Load data
-df = pd.read_excel('bank.xlsx')
+df = pd.read_excel('data/bank.xlsx')
 
 # Ensure class labels are 0 for bankruptcy and 1 for non-bankruptcy
 df['class'] = df['class'].map({'bankruptcy': 0, 'non-bankruptcy': 1})
@@ -60,3 +60,4 @@ if st.button('Predict'):
 #st.subheader('Cross-Validation Scores')
 #st.write(cv_scores)
 #st.write('Mean CV Score:', cv_scores.mean())
+
